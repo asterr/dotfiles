@@ -152,3 +152,7 @@ export PATH="$PATH:$HOME/.rvm/bin"
 
 # Add Krew
 export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
+
+# Setup scmbreeze
+[ -s "$HOME/.scm_breeze/scm_breeze.sh" ] && source "$HOME/.scm_breeze/scm_breeze.sh"
+
